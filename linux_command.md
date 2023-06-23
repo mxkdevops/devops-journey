@@ -13,3 +13,8 @@ sudo chage -d 0 newuser
 
 # check the content of passwd file
 cat /etc/passwd
+# check the operating system i am using
+uname -a
+lsb_release -a
+
+
