@@ -10,3 +10,6 @@ sudo passwd newuser
 
 # Set password expiration and enforce change upon first login
 sudo chage -d 0 newuser
+
+# check the content of passwd file
+cat /etc/passwd
